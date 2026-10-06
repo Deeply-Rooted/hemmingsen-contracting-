@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hemmingsen Contracting Co., Inc. | Crescent City & North Coast CA</title>
+  <meta name="description" content="General Engineering Contractor serving the North Coast since 1963. Paving, grading, excavation, land clearing, heavy equipment rental, trucking, and aggregate landscape materials.">
+
+  <!-- OpenGraph & Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hemmingsen Contracting Co., Inc.">
+  <meta property="og:title" content="Hemmingsen Contracting Co., Inc. | General Engineering & Materials">
+  <meta property="og:description" content="Family owned since 1963. Paving, earthwork, underground utilities, aggregate sales, and heavy equipment rental in Crescent City and Klamath.">
+
+  <!-- Local Geographic Tags -->
+  <meta name="geo.region" content="US-CA">
+  <meta name="geo.placename" content="Crescent City, California">
+  <meta name="geo.position" content="41.7681;-124.1906">
+  <meta name="ICBM" content="41.7681, -124.1906">
+
+  <!-- AI & Search Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GeneralContractor",
+    "name": "Hemmingsen Contracting Co., Inc.",
+    "foundingDate": "1963",
+    "telephone": "+1-707-464-5225",
+    "faxNumber": "+1-707-464-3659",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1841 Northcrest Dr",
+      "addressLocality": "Crescent City",
+      "addressRegion": "CA",
+      "postalCode": "95531",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 41.7681,
+      "longitude": -124.1906
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "08:00",
+        "closes": "17:00"
+      }
+    ],
+    "areaServed": [
+      {
+        "@type": "City",
+        "name": "Crescent City"
+      },
+      {
+        "@type": "City",
+        "name": "Klamath"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Del Norte County"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "North Coast CA"
+      }
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "California State Contractors License",
+        "identifier": "9578520"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "USDOT",
+        "identifier": "2046664"
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "MC Docket",
+        "identifier": "MC717347"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --safety-amber: #D97706;
+      --amber-dark: #B45309;
+      --granite-dark: #1F2937;
+      --slate-bg: #111827;
+      --surface-card: #1E293B;
+      --surface-light: #F3F4F6;
+      --border-steel: #374151;
+      --text-main: #F9FAFB;
+      --text-muted: #9CA3AF;
+      --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--slate-bg);
+      color: var(--text-main);
+      font-family: var(--font-stack);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .top-status-bar {
+      background-color: #000000;
+      color: var(--text-muted);
+      border-bottom: 2px solid var(--safety-amber);
+      font-size: 0.8rem;
+      padding: 8px 16px;
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 16px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .top-status-bar span {
+      color: var(--safety-amber);
+    }
+
+    .container {
+      max-width: 1040px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header.hero {
+      padding: 48px 0 36px 0;
+      text-align: center;
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    .badge-legacy {
+      display: inline-block;
+      background-color: rgba(217, 119, 6, 0.15);
+      color: var(--safety-amber);
+      border: 1px solid var(--safety-amber);
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      font-weight: 900;
+      color: #FFFFFF;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 12px;
+    }
+
+    p.hero-subhead {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 720px;
+      margin: 0 auto 24px auto;
+    }
+
+    .action-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 14px 22px;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: 800;
+      text-decoration: none;
+      transition: background-color 0.15s ease, transform 0.1s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background-color: var(--safety-amber);
+      color: #000000;
+      border: 1px solid var(--amber-dark);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--amber-dark);
+      color: #FFFFFF;
+    }
+
+    .btn-secondary {
+      background-color: var(--surface-card);
+      color: #FFFFFF;
+      border: 1px solid var(--border-steel);
+    }
+
+    .btn-secondary:hover {
+      background-color: var(--border-steel);
+    }
+
+    .trust-strip {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin: 32px 0;
+    }
+
+    .trust-box {
+      background-color: var(--surface-card);
+      border: 1px solid var(--border-steel);
+      padding: 14px;
+      border-radius: 6px;
+      text-align: center;
+      font-size: 0.85rem;
+    }
+
+    .trust-box strong {
+      display: block;
+      color: #FFFFFF;
+      font-size: 0.95rem;
+      margin-bottom: 2px;
+    }
+
+    .trust-box span {
+      color: var(--text-muted);
+    }
+
+    section {
+      padding: 40px 0;
+      border-bottom: 1px solid var(--border-steel);
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .section-subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    @media (min-width: 768px) {
+      .grid-2 {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .card {
+      background-color: var(--surface-card);
+      border: 1px solid var(--border-steel);
+      border-radius: 8px;
+      padding: 24px;
+    }
+
+    .card h3 {
+      font-size: 1.2rem;
+      color: var(--safety-amber);
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .list-checks {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .list-checks li {
+      font-size: 0.95rem;
+      color: var(--text-main);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    .list-checks li::before {
+      content: "■";
+      color: var(--safety-amber);
+      font-size: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .material-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .material-pill {
+      background-color: var(--slate-bg);
+      border: 1px solid var(--border-steel);
+      color: #FFFFFF;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    .review-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+
+    @media (min-width: 768px) {
+      .review-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .review-card {
+      background-color: var(--surface-card);
+      border: 1px solid var(--border-steel);
+      border-left: 4px solid var(--safety-amber);
+      border-radius: 6px;
+      padding: 20px;
+    }
+
+    .review-stars {
+      color: var(--safety-amber);
+      font-size: 1rem;
+      margin-bottom: 8px;
+      letter-spacing: 2px;
+    }
+
+    .review-quote {
+      font-size: 0.92rem;
+      color: var(--text-main);
+      margin-bottom: 12px;
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    .review-author {
+      font-size: 0.82rem;
+      font-weight: 800;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .ops-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    @media (min-width: 768px) {
+      .ops-grid {
+        grid-template-columns: 1.2fr 1fr;
+      }
+    }
+
+    .ops-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid var(--border-steel);
+      font-size: 0.9rem;
+    }
+
+    .ops-row:last-child {
+      border-bottom: none;
+    }
+
+    .ops-label {
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    .ops-val {
+      color: #FFFFFF;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    footer.site-footer {
+      background-color: #0A0D14;
+      padding: 36px 0 28px 0;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      border-top: 2px solid var(--border-steel);
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+
+    .footer-links a {
+      color: var(--safety-amber);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .footer-legal {
+      max-width: 760px;
+      margin: 12px auto 0 auto;
+      font-size: 0.75rem;
+      line-height: 1.5;
+      color: #6B7280;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-status-bar">
+    <div>OFFICE: <span>Mon–Fri 8:00 AM – 5:00 PM</span></div>
+    <div>YARD &amp; HAULING: <span>Crescent City • Klamath • North Coast CA</span></div>
+    <div>CSLB #<span>9578520</span></div>
+  </div>
+
+  <div class="container">
+
+    <header class="hero">
+      <div class="badge-legacy">Family Owned &amp; Operated Since 1963</div>
+      <h1>Hemmingsen Contracting Co., Inc.</h1>
+      <p class="hero-subhead">
+        General Engineering Contractor, Earthwork &amp; Paving, Heavy Equipment Rental, Freight Hauling, and Retail Landscape Aggregate.
+      </p>
+
+      <div class="action-row">
+        <a href="tel:7074645225" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          Call Office: (707) 464-5225
+        </a>
+        <a href="tel:7072187350" class="btn btn-secondary">
+          Dispatch / Mobile: (707) 218-7350
+        </a>
+        <a href="https://maps.google.com/?q=1841+Northcrest+Dr,+Crescent+City,+CA+95531" target="_blank" rel="noopener" class="btn btn-secondary">
+          Find Yard &amp; Office
+        </a>
+      </div>
+      <p style="font-size: 0.9rem; color: var(--safety-amber); font-weight: 700;">★ Contact us today for FREE estimates on projects and material delivery</p>
+    </header>
+
+    <div class="trust-strip">
+      <div class="trust-box">
+        <strong>CSLB License #9578520</strong>
+        <span>Class A Engineering &bull; Earthwork &bull; Paving</span>
+      </div>
+      <div class="trust-box">
+        <strong>$25,000 Contractor Bond</strong>
+        <span>Nationwide Mutual Insurance Co.</span>
+      </div>
+      <div class="trust-box">
+        <strong>Workers' Compensation</strong>
+        <span>State Compensation Insurance Fund</span>
+      </div>
+      <div class="trust-box">
+        <strong>Interstate Carrier Authority</strong>
+        <span>USDOT 2046664 &bull; MC717347</span>
+      </div>
+    </div>
+
+    <section id="services">
+      <h2 class="section-title">Contracting, Earthwork &amp; Fleet Services</h2>
+      <p class="section-subtitle">Comprehensive civil construction, grading, and site preparation across Del Norte County and surrounding coastal regions.</p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h3>General Engineering &amp; Site Work</h3>
+          <ul class="list-checks">
+            <li>Asphalt Paving &amp; Road Surfacing</li>
+            <li>Site Grading, Excavation &amp; Earthmoving</li>
+            <li>Land Clearing &amp; Tree Service</li>
+            <li>Underground Utilities &amp; Drainage Services</li>
+            <li>Commercial Developments &amp; Residential Projects</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Fleet Hauling &amp; Equipment Rental</h3>
+          <ul class="list-checks">
+            <li>Extensive Heavy Equipment Fleet for Rent</li>
+            <li>Full Fleet of Trucks &amp; End-Dump Trailers for Hauling</li>
+            <li>Split-Load Jobsite Deliveries (Multiple Drops on Request)</li>
+            <li>Authorized Interstate Freight Carrier Operations</li>
+            <li>Fast On-Site Loading for Small Residential Trailers</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="aggregates">
+      <h2 class="section-title">Aggregate &amp; Landscape Materials</h2>
+      <p class="section-subtitle">Pick up in your own pickup/trailer or schedule dump truck delivery directly to your property.</p>
+
+      <div class="card">
+        <h3>Bulk Materials Available at Northcrest Dr:</h3>
+        <div class="material-cloud">
+          <div class="material-pill">Base Rock</div>
+          <div class="material-pill">Drain Rock</div>
+          <div class="material-pill">Decomposed Granite</div>
+          <div class="material-pill">Organic Compost</div>
+          <div class="material-pill">Shredded Redwood Bark</div>
+          <div class="material-pill">Screened Dirt / Topsoil</div>
+          <div class="material-pill">River Sand</div>
+          <div class="material-pill">Crushed Gravel</div>
+        </div>
+        <p style="margin-top: 18px; font-size: 0.9rem; color: var(--text-muted);">
+          Whether you need a single yard loaded in a small residential trailer or multiple tandem loads delivered and split across your driveway, our yard crew is ready to load.
+        </p>
+      </div>
+    </section>
+
+    <section id="reviews">
+      <h2 class="section-title">Customer Feedback</h2>
+      <p class="section-subtitle">What local homeowners and project managers say about working with Steve and the Hemmingsen team.</p>
+
+      <div class="review-grid">
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "Hemmingsen Contracting has completed several grading, excavation and gravel deliveries for me over the past several months. By any measure, they operate an outstanding business. I’m always well informed on the status of projects, they pay attention to details and always follow up to make sure projects are completed as discussed. It’s a rare commodity to find companies that say what they do and do what they say and that is exactly what you will find with Steve and Hemmingsen as a whole. Can’t say enough good, highly recommended."
+          </p>
+          <div class="review-author">— Chris Gubler</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "I ordered a truckload of gravel and I needed it in two different places so they were kind enough to split that load—put half in one spot that I needed and the other half in another. So I appreciate that. Good customer service. Very happy with the product quality."
+          </p>
+          <div class="review-author">— Mary Chapin</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "As a small residential customer, Hemmingsen has always been pleasant to order from and quick to load when I come to pick up in my small trailer. Reasonable price."
+          </p>
+          <div class="review-author">— Gabbie Bartek</div>
+        </div>
+
+        <div class="review-card">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-quote">
+            "Positive: Responsiveness, Punctuality, Quality, Professionalism, Value."
+          </p>
+          <div class="review-author">— Lj Waters</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2 class="section-title">Yard Hours &amp; Contact Info</h2>
+      <p class="section-subtitle">Stop by our main yard or reach our dispatch desk by phone.</p>
+
+      <div class="ops-grid">
+        <div class="card">
+          <div class="ops-row">
+            <span class="ops-label">Physical Address:</span>
+            <span class="ops-val">1841 Northcrest Dr, Crescent City, CA 95531</span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Main Office Phone:</span>
+            <span class="ops-val"><a href="tel:7074645225" style="color: var(--safety-amber); text-decoration: none;">(707) 464-5225</a></span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Secondary / Dispatch:</span>
+            <span class="ops-val"><a href="tel:7072187350" style="color: var(--safety-amber); text-decoration: none;">(707) 218-7350</a></span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Office Fax:</span>
+            <span class="ops-val">(707) 464-3659</span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Primary Service Areas:</span>
+            <span class="ops-val">Crescent City, Klamath &amp; Surrounding North Coast</span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Freight Authorities:</span>
+            <span class="ops-val">USDOT #2046664 | MC #717347</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="color: #FFFFFF; font-size: 1.05rem; margin-bottom: 14px;">Yard &amp; Office Hours</h3>
+          <div class="ops-row">
+            <span class="ops-label">Monday – Friday</span>
+            <span class="ops-val" style="color: #10B981;">8:00 AM – 5:00 PM</span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Saturday</span>
+            <span class="ops-val" style="color: var(--text-muted);">Closed</span>
+          </div>
+          <div class="ops-row">
+            <span class="ops-label">Sunday</span>
+            <span class="ops-val" style="color: var(--text-muted);">Closed</span>
+          </div>
+          <p style="margin-top: 16px; font-size: 0.85rem; color: var(--text-muted);">
+            Need material loaded on a trailer? Pull in through our main gate during regular weekday hours for rapid scale and loader service.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="tel:7074645225">Call (707) 464-5225</a>
+        <a href="https://maps.google.com/?q=1841+Northcrest+Dr,+Crescent+City,+CA+95531" target="_blank" rel="noopener">Directions</a>
+        <a href="#services">Services</a>
+        <a href="#aggregates">Landscape Materials</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+      <p>&copy; 2026 Hemmingsen Contracting Co., Inc. All rights reserved.</p>
+      <p class="footer-legal">
+        California State License #9578520 (General Engineering Contractor, Earthwork and Paving Contractor, Tree Service). Bonded ($25,000 Nationwide Mutual Insurance Company) &bull; Workers' Compensation Insurance (State Compensation Insurance Fund). A contractor's bond protects consumers up to the bond amount if the contractor fails to fulfill contractual obligations or violates CSLB regulations.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
